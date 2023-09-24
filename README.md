@@ -173,7 +173,42 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 
 ## STM 32 CUBE PROGRAM :
+```
+Developed by: SV KAMALESH
+REF N0. 212222240041
 
+#include "main.h"
+#include "lcd.h"
+
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+
+int main(void)
+{
+  
+  HAL_Init();
+
+  SystemClock_Config();
+
+  MX_GPIO_Init();
+  
+  Lcd_PortType ports[] = {GPIOA,GPIOA,GPIOA,GPIOA};
+  Lcd_PinType pins[] = {GPIO_PIN_3,GPIO_PIN_2,GPIO_PIN_1,GPIO_PIN_0};
+  Lcd_HandleTypeDef lcd;
+  lcd = Lcd_create(ports,pins,GPIOB,GPIO_PIN_0,GPIOB,GPIO_PIN_1,LCD_4_BIT_MODE);
+
+  Lcd_cursor(&lcd, 0,3);
+  Lcd_string(&lcd, "DEPT : AIML");
+
+  Lcd_cursor(&lcd, 1,5);
+  Lcd_string(&lcd, "KAMALESH SV");
+  
+  while (1)
+  {
+   
+  }
+
+}
 
 
 
