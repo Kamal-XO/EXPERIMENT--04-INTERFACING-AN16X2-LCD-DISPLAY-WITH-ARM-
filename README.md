@@ -199,9 +199,6 @@ int main(void)
 
   Lcd_cursor(&lcd, 0,3);
   Lcd_string(&lcd, "DEPT : AIML");
-
-  Lcd_cursor(&lcd, 1,5);
-  Lcd_string(&lcd, "KAMALESH SV");
   
   while (1)
   {
@@ -213,9 +210,19 @@ int main(void)
 
 
 ## Output screen shots of proteus  :
+
+### Before :
+
+![output](./pmc41.png)
+
+### After :
+
+![output](./pmc42.png)
  
  
- ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
+ ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE):
+
+![output](https://user-images.githubusercontent.com/120204455/269312670-4b74d54e-c0c1-486b-a340-8de9ca4cb0c9.png)
  
  
 ## Result :
