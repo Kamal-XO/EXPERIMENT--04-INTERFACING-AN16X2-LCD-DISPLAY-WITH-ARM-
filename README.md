@@ -217,7 +217,7 @@ int main(void)
 
 ### After :
 
-![output](./pmc42.png)
+![output](./pmc42.jpg)
  
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE):
