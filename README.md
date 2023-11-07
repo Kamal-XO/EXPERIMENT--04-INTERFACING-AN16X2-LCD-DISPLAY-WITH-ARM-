@@ -207,6 +207,7 @@ int main(void)
 
 }
 
+```
 
 
 ## Output screen shots of proteus  :
@@ -227,4 +228,3 @@ int main(void)
  
 ## Result :
 Interfacing a lcd display with ARM microcontroller are simulated in proteus and the results are verified.
-
